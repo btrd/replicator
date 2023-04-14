@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Exit when any command fails
+set -e
+
 if [ -z "$SOURCE_APP" ]
 then
   echo "SOURCE_APP is not set"
